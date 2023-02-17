@@ -1,0 +1,23 @@
+.product__info-container .product-form__input input[type="radio"] + label{
+  background:transparent;
+  border-radius:0;
+  height: 48px;
+  width: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.product__info-container .product-form__input input[type="radio"] + label.color-swatch{
+  height: 28px;
+  width: 28px;
+  border-radius: 50% !important;
+  padding: 0 !important;
+}
+.product__info-container .product-form__input input[type="radio"]:checked + label{
+  border-color:#FF0000;
+  background:transparent;
+  color: rgb(var(--color-foreground));
+}
+.product__info-container .product-form__input .color-swatch span{
+  display:none;
+}
