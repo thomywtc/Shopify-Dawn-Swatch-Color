@@ -1,3 +1,6 @@
+.flexbox{
+  display:flex;
+}
 .product__info-container .product-form__input input[type="radio"] + label{
   background:transparent;
   border-radius:0;
